@@ -1,10 +1,10 @@
 # Change Log
 
-### Version 0.1.5 *(2019-09-27)*
+### Version 0.1.5 *(2019-10-15)*
 
-* Updated code to work with clustered and non clustered redis services.
-Works with self managed and AWS elasticache redis services. 
-* Updating docs and examples.
+* Updating `gradle` to `5.6.2`.
+* Using `RedisURI` to facilitate auth. (Thanks to [@amozgovoy](https://github.com/amozgovoy)).
+* Support for Redis Cluster. (Thanks to [@egmantas](https://github.com/egmantas)).
 
 ### Version 0.1.4 *(2019-02-19)*
 
