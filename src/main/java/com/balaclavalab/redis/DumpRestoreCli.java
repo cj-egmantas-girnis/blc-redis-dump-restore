@@ -34,8 +34,6 @@ public class DumpRestoreCli {
         options.addOption("tc", "toCluster", false, "Use cluster connection for Redis to");
         options.addOption("m", "scanMatch", true, "Scan Match (default: *)");
         options.addOption("l", "scanLimit", true, "Scan Limit (default: 5000)");
-        options.addOption("s", "SrcCluMod", true, "Source redis is in Cluster mode (default: no)");
-        options.addOption("d", "DstCluMod", true, "Destination redis is in Cluster mode (default: no)");
 
         CommandLineParser commandLineParser = new DefaultParser();
         try {

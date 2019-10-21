@@ -31,7 +31,6 @@ BLC Redis dump restore utility.
 ```
 usage: blc-redis-dump-restore [-f <arg>] [-fc] [-l <arg>] [-m <arg>] [-t <arg>] [-tc]
 BLC Redis dump restore utility
- -d,--DstCluMod <arg>   Destination redis is in Cluster mode (default: no)
  -f,--uriFrom <arg>     Redis from (e.g. redis://localhost/1)
  -fc,--fromCluster      Use cluster connection for Redis from
  -l,--scanLimit <arg>   Scan Limit (default: 5000)
